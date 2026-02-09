@@ -1,7 +1,7 @@
-using Godot;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using Godot;
 
 namespace Ascendere.Log
 {
@@ -27,15 +27,21 @@ namespace Ascendere.Log
         private readonly Dictionary<Type, bool> _loggingOverrides = new();
         private LogLevel _globalMinimumLevel = LogLevel.Debug;
 
-        [Export] public LogLevel GlobalMinimumLevel
+        [Export]
+        public LogLevel GlobalMinimumLevel
         {
             get => _globalMinimumLevel;
             set => _globalMinimumLevel = value;
         }
 
-        [Export] public bool EnableTimestamps { get; set; } = true;
-        [Export] public bool EnableTypeNames { get; set; } = true;
-        [Export] public bool EnableLogLevel { get; set; } = true;
+        [Export]
+        public bool EnableTimestamps { get; set; } = true;
+
+        [Export]
+        public bool EnableTypeNames { get; set; } = true;
+
+        [Export]
+        public bool EnableLogLevel { get; set; } = true;
 
         public override void _Ready()
         {

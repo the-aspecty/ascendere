@@ -1,5 +1,5 @@
-using Godot;
 using Ascendere.Log;
+using Godot;
 
 /// <summary>
 /// Example showing how to register LogService with the Ascendere ServiceLocator
@@ -116,7 +116,7 @@ public partial class PlayerSystem : Node
         _log = ServiceLocator.Get<ILogService>();
 
         _log.Info(this, "PlayerSystem initialized using ServiceLocator");
-        
+
         // Configure through service
         _log.EnableLogLevel = false;
         _log.Info(this, "Clean message without log level");
