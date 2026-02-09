@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://ciwhhvdihypnt"]
+
+[ext_resource type="Script" uid="uid://bi5v22gv6d26f" path="res://Examples/SceneManagement/Scripts/Game.cs" id="1"]
+[ext_resource type="Script" uid="uid://dcknq1r82xgge" path="res://addons/log_module/Scripts/Logger.cs" id="2_rjgdp"]
+[ext_resource type="Script" uid="uid://cox7k1gsmwi2i" path="res://addons/log_module/Examples/ExampleUsage.cs" id="3_r77l1"]
+
+[node name="Game" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1")
+
+[node name="GameLabel" type="Label" parent="."]
+layout_mode = 1
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 220.0
+offset_bottom = 50.0
+text = "Game Scene"
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 1
+offset_left = 20.0
+offset_top = 60.0
+offset_right = 180.0
+offset_bottom = 96.0
+text = "Back"
+
+[node name="log addon" type="Node" parent="."]
+script = ExtResource("2_rjgdp")
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("3_r77l1")
