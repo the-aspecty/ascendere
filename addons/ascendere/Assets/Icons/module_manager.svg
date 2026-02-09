@@ -1,0 +1,29 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="managerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#6c5ce7" />
+            <stop offset="100%" style="stop-color:#5a4fcf" />
+        </linearGradient>
+    </defs>
+
+    <!-- Central manager hub -->
+    <rect x="6" y="6" width="4" height="4" rx="1" fill="url(#managerGradient)" stroke="#4834d4" stroke-width="0.5" />
+
+    <!-- Module connections (top) -->
+    <rect x="6.5" y="2" width="3" height="2" rx="0.5" fill="#74b9ff" stroke="#0984e3" stroke-width="0.3" />
+    <rect x="6.5" y="12" width="3" height="2" rx="0.5" fill="#74b9ff" stroke="#0984e3" stroke-width="0.3" />
+
+    <!-- Module connections (sides) -->
+    <rect x="2" y="6.5" width="2" height="3" rx="0.5" fill="#74b9ff" stroke="#0984e3" stroke-width="0.3" />
+    <rect x="12" y="6.5" width="2" height="3" rx="0.5" fill="#74b9ff" stroke="#0984e3" stroke-width="0.3" />
+
+    <!-- Connection lines -->
+    <line x1="8" y1="4" x2="8" y2="6" stroke="#636e72" stroke-width="0.8" />
+    <line x1="8" y1="10" x2="8" y2="12" stroke="#636e72" stroke-width="0.8" />
+    <line x1="4" y1="8" x2="6" y2="8" stroke="#636e72" stroke-width="0.8" />
+    <line x1="10" y1="8" x2="12" y2="8" stroke="#636e72" stroke-width="0.8" />
+
+    <!-- Manager indicator -->
+    <text x="8" y="9" text-anchor="middle" fill="white" font-family="monospace" font-size="2.5"
+        font-weight="bold">M</text>
+</svg>
