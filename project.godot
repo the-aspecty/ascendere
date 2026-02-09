@@ -11,14 +11,33 @@ config_version=5
 [application]
 
 config/name="ascendere"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+config/tags=PackedStringArray("plugin", "system")
+run/main_scene="uid://d3wgqfexwmhef"
+config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[ascendere]
+
+enabled=true
+verbose_logging=false
+default_namespace="Aspecty"
+general/auto_discovery=true
+general/debug_mode=false
+paths/components="/Components"
+
+[autoload]
+
+RuntimeBridge="*res://addons/editorruntime/Scripts/Runtime/RuntimeBridge.cs"
+AscendereManager="*res://addons/ascendere/Autoload/AscendereManager.cs"
 
 [dotnet]
 
 project/assembly_name="ascendere"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/ascendere/plugin.cfg", "res://addons/editorruntime/plugin.cfg")
+
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+renderer/rendering_method="mobile"
