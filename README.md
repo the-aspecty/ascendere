@@ -18,6 +18,44 @@ Ascendere is a comprehensive metaframework that provides everything you need to 
 - ⚙️ **Editor Extensions** - Command palette, custom tools, and workflow enhancements
 - 🎮 **Game Modules** - AI, Inventory, Networking, Quests, SaveLoad, and more
 
+> More features and modules are in development and refinement! Check the repository for updates.
+
+---
+
+## 🏗️ Architecture
+
+Ascendere follows these principles:
+
+- **Modular First** - Everything is a module that can be extended, tweaked, or replaced
+- **Godot-Native** - It's an Addon that integrates directly with Godot with no external dependencies
+- **Auto-Discovery** - Use attributes, minimal boilerplate
+- **Convention Over Configuration** - Sensible defaults, configure only when needed
+- **Dependency Injection** - Services are injected, not manually instantiated
+- **Declarative Style** - Self-describing code with clear patterns
+- **Type Safety** - Generics and interfaces prevent bugs
+
+---
+
+## 🎯 Use Cases
+
+Ascendere is perfect for:
+
+- 🎮 **Mid to large-scale games** requiring proper architecture
+- 👥 **Team projects** where consistency and clarity matter
+- 🔄 **Long-term projects** that need maintainability
+- 🎓 **Learning** modern C# game development patterns
+- 🚀 **Rapid prototyping** with production-ready systems
+
+
+---
+
+## Meta framework?
+A meta-framework is a higher-level framework that integrates or builds upon existing framework to provide a more cohesive, opinionated, and feature-rich development environment.
+
+Ascendere is a metaframework that combines core architecture, powerful features and tools, reusable systems, and clear conventions for building games on top of Godot to help you structure, scale, and maintain projects.
+
+Designed for team workflows and long-term development, Ascendere enables rapid prototyping while remaining production-ready.
+
 ---
 
 ## 🎯 Quick Start
@@ -333,32 +371,6 @@ Each module has comprehensive documentation:
 - [Registry System](addons/ascendere/registry_module/INTEGRATION_GUIDE.md) - Integration guide
 - [Debug System](addons/debug_module/README.md) - Debugging tools reference
 - [Logger](addons/log_module/README.md) - Logging configuration
-
----
-
-## 🏗️ Architecture
-
-Ascendere follows these principles:
-
-- **Modular First** - Everything is a module that can be enabled/disabled
-- **Auto-Discovery** - Use attributes, minimal boilerplate
-- **Convention Over Configuration** - Sensible defaults, configure only when needed
-- **Dependency Injection** - Services are injected, not manually instantiated
-- **Type Safety** - Generics and interfaces prevent bugs
-- **Signal-Based Communication** - Loose coupling via events
-- **Godot-Native** - Feels like part of Godot, not a foreign framework
-
----
-
-## 🎯 Use Cases
-
-Ascendere is perfect for:
-
-- 🎮 **Mid to large-scale games** requiring proper architecture
-- 👥 **Team projects** where consistency and clarity matter
-- 🔄 **Long-term projects** that need maintainability
-- 🎓 **Learning** modern C# game development patterns
-- 🚀 **Rapid prototyping** with production-ready systems
 
 ---
 
