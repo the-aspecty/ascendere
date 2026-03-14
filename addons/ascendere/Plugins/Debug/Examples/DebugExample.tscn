@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://bqhvx7y8n5mw8"]
+
+[ext_resource type="Script" uid="uid://cmu74qttsoxpc" path="res://addons/debug_module/Examples/DebugExampleScript.cs" id="1_xj5qm"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_12345"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_67890"]
+
+[node name="DebugExample" type="Node3D" unique_id=262207541]
+script = ExtResource("1_xj5qm")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=263750915]
+transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 5, 10)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=626565705]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 5, 0)
+
+[node name="Floor" type="MeshInstance3D" parent="." unique_id=1937237644]
+transform = Transform3D(20, 0, 0, 0, 0.1, 0, 0, 0, 20, 0, -0.5, 0)
+mesh = SubResource("BoxMesh_12345")
+
+[node name="TestObject" type="MeshInstance3D" parent="." unique_id=1990556657]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+mesh = SubResource("SphereMesh_67890")
+
+[node name="HelpLabel" type="Label" parent="." unique_id=1858535931]
+offset_right = 400.0
+offset_bottom = 150.0
+text = "Debug Module Example
+
+F1 - Toggle Debug Overlay
+F2 - Toggle Console
+F3 - Toggle Node Inspector
+F4 - Toggle Performance Graph
+
+Watch the animated debug shapes!"

@@ -3,14 +3,14 @@ using System;
 namespace Ascendere;
 
 [AttributeUsage(AttributeTargets.Class)]
-public class PluginAttribute : Attribute
+public class AscenderePluginAttribute : Attribute
 {
     public string Name { get; }
     public string Description { get; set; }
     public bool Core { get; }
     public int LoadOrder { get; set; }
 
-    public PluginAttribute(
+    public AscenderePluginAttribute(
         string name = null,
         string description = null,
         bool core = false,

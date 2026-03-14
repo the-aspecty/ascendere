@@ -1,0 +1,15 @@
+{
+    "id": "log_module",
+    "name": "Logging System",
+    "version": "1.0.0",
+    "description": "Structured logging — ILogger/ILogService interfaces, log levels, [Log] attribute, logger extensions, and service pattern.",
+    "category": "tools",
+    "dependencies": [],
+    "paths": {
+        "addon": "addons/ascendere/Plugins/Log"
+    },
+    "examples": [],
+    "postInstall": [],
+    "optionalDeps": [],
+    "hasAdapters": false
+}

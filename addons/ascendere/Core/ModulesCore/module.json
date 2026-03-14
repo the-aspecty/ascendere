@@ -1,0 +1,15 @@
+{
+    "id": "modules_core",
+    "name": "Module System Core",
+    "version": "1.0.0",
+    "description": "Module system foundation — IModule interface, ModuleAttribute, and ModuleManager for auto-discovery and lifecycle management.",
+    "category": "core",
+    "dependencies": [],
+    "paths": {
+        "addon": "addons/ascendere/modules_core"
+    },
+    "examples": [],
+    "postInstall": [],
+    "optionalDeps": [],
+    "hasAdapters": false
+}

@@ -1,0 +1,28 @@
+{
+    "id": "service_locator",
+    "name": "Service Locator",
+    "version": "1.0.0",
+    "description": "Advanced service locator with dependency injection, decorators, middleware, named services, scoped lifetimes, and dependency graph visualization.",
+    "category": "core",
+    "dependencies": [
+        "editorruntime"
+    ],
+    "paths": {
+        "addon": "addons/ascendere/service_locator"
+    },
+    "examples": [
+        {
+            "name": "Service Module Example",
+            "path": "Examples/ServiceModule",
+            "description": "Demonstrates service registration, resolution, and lifecycle patterns."
+        },
+        {
+            "name": "Inventory Module Example",
+            "path": "Examples/InventoryModule",
+            "description": "Full module example showcasing service locator + module pattern integration."
+        }
+    ],
+    "postInstall": [],
+    "optionalDeps": [],
+    "hasAdapters": false
+}

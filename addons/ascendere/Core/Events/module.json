@@ -1,0 +1,15 @@
+{
+    "id": "events_module",
+    "name": "Event Bus",
+    "version": "1.0.0",
+    "description": "Centralized EventBus for typed event communication with history, cancellation, and attribute-based handler discovery.",
+    "category": "core",
+    "dependencies": [],
+    "paths": {
+        "addon": "addons/ascendere/events_module"
+    },
+    "examples": [],
+    "postInstall": [],
+    "optionalDeps": [],
+    "hasAdapters": false
+}

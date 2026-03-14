@@ -1,0 +1,17 @@
+{
+    "id": "debug_module",
+    "name": "Debug Tools",
+    "version": "1.0.0",
+    "description": "Debug overlay system — draw debug shapes, performance graphs, node inspector, debug console, and input handling.",
+    "category": "tools",
+    "dependencies": [
+        "log_module"
+    ],
+    "paths": {
+        "addon": "addons/ascendere/Plugins/Debug"
+    },
+    "examples": [],
+    "postInstall": [],
+    "optionalDeps": [],
+    "hasAdapters": false
+}

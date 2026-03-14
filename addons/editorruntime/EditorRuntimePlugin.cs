@@ -9,7 +9,7 @@ using Ascendere.EditorRuntime.Editor;
 namespace Ascendere.EditorRuntime
 {
     [Tool]
-    [Plugin(
+    [AscenderePlugin(
         "Editor Runtime",
         Description = "Enables communication between the Godot Editor and running game instances for debugging and data inspection."
     )]

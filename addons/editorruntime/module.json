@@ -1,0 +1,13 @@
+{
+    "id": "editorruntime",
+    "name": "Editor Runtime Bridge",
+    "version": "1.0.0",
+    "description": "Bidirectional communication bridge between Godot Editor and running game instances for debugging and runtime inspection.",
+    "category": "tools",
+    "dependencies": [],
+    "paths": {
+        "addon": "addons/editorruntime"
+    },
+    "examples": [],
+    "postInstall": []
+}

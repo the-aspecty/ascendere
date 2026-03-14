@@ -1,0 +1,15 @@
+{
+    "id": "serialization_module",
+    "name": "Serialization",
+    "version": "1.0.0",
+    "description": "Serialization contracts (ISerializable) for consistent data persistence across modules.",
+    "category": "core",
+    "dependencies": [],
+    "paths": {
+        "addon": "addons/ascendere/serialization_module"
+    },
+    "examples": [],
+    "postInstall": [],
+    "optionalDeps": [],
+    "hasAdapters": false
+}
