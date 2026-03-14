@@ -1,0 +1,116 @@
+Ascendere Community License
+Version 1.0, March 2026
+
+Copyright (c) 2026 Aspecty. All rights reserved.
+"Ascendere" and "Aspecty" are names belonging to the copyright holder.
+
+DEFINITIONS
+
+"Software" means the Ascendere metaframework, including all of its modules and all associated
+scripts, assets, documentation, and tooling) available at the official
+Ascendere repository maintained by Aspecty.
+
+"Official Repository" means the canonical version of the Software as published
+and maintained by Aspecty.
+
+"Fork" means any copy of the Software that has been modified from its source.
+
+"Distribute" or "Distribution" means making the Software or any Fork available
+to any third party by any means, including but not limited to: uploading to
+public or private repositories, publishing to marketplace platforms (such as
+the Godot Asset Library, itch.io, Unity Asset Store, or similar), packaging as
+a NuGet or npm package, embedding in a project template publicly shared, or
+otherwise transferring a copy to any party other than yourself.
+
+"Game" means an end-user interactive application, interactive experience, or
+software product that uses Ascendere only as a development dependency -- where
+Ascendere itself is not the product being distributed.
+
+"You" means the individual or legal entity exercising permissions granted by
+this License.
+
+GRANT OF RIGHTS
+
+Subject to the terms of this License, Aspecty grants You a worldwide,
+royalty-free, non-exclusive, non-sublicensable license to:
+
+  1. Use the Software to develop, build, and ship any number of Games,
+     including commercial Games, without royalty or fee.
+
+  2. Read, study, and learn from the source code of the Software.
+
+  3. Modify the Software solely for the purpose of integration within a
+     private Game project that You own or are employed to work on.
+
+  4. Submit modifications back to the Official Repository as contributions
+     under the terms of any Contributor License Agreement published by Aspecty.
+
+RESTRICTIONS
+
+You may NOT, without explicit prior written permission from Aspecty:
+
+  1. REDISTRIBUTE THE SOFTWARE. You may not Distribute the Software, any Fork,
+     or any substantial portion of the Software as a standalone addon, plugin,
+     library, package, template, starter project, or developer tool, regardless
+     of whether it is distributed for free or for payment.
+
+  2. REBRAND THE SOFTWARE. You may not publish, distribute, or present any copy
+     or Fork of the Software under a different product name without retaining
+     the name "Ascendere" and the credit "by Aspecty" in all user-facing
+     materials, README files, plugin.cfg metadata, and in-editor plugin
+     descriptions.
+
+  3. REMOVE LICENSING NOTICES. You may not remove, alter, or obscure any
+     copyright notice, this License text, or any attribution to Aspecty or
+     Ascendere in any copy or Fork of the Software, whether distributed or kept
+     privately.
+
+  4. SUBLICENSE. You may not grant any other party rights that exceed the rights
+     You have under this License.
+
+  5. IMPERSONATE THE COPYRIGHT HOLDER. You may not publish or distribute any
+     copy or Fork of the Software in a manner that implies Aspecty's endorsement
+     or that You are the original author of Ascendere.
+
+ATTRIBUTION IN GAMES
+
+Games built using the Software are not required to credit Ascendere or Aspecty
+in credits, documentation, or marketing. Attribution in shipped Games is
+appreciated but voluntary.
+
+PREMIUM MODULES
+
+Modules or addons explicitly marked as "Premium," "Pro," or "Commercial" in
+their plugin.cfg or module.json are NOT covered by this License. Those modules
+are governed by a separate Ascendere Commercial End-User License (ACEL).
+
+CONTRIBUTIONS
+
+By submitting a pull request or otherwise contributing code, assets, or
+documentation to the Official Repository, You grant Aspecty a perpetual,
+worldwide, royalty-free, irrevocable license to use, modify, sublicense, and
+distribute Your contribution under any license Aspecty chooses, including future
+versions of this License or a proprietary license.
+
+DISCLAIMER OF WARRANTIES
+
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL
+ASPECTY BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM USE
+OR INABILITY TO USE THE SOFTWARE.
+
+TERMINATION
+
+Your rights under this License terminate automatically and without notice if
+You fail to comply with any of any of its terms. Upon termination, You must
+cease all use of the Software and destroy all copies in Your possession.
+Sections "Restrictions," "Disclaimer of Warranties," and "Termination" survive
+termination of this License.
+
+GOVERNING LAW
+
+This License is governed by the laws of the jurisdiction in which Aspecty is
+domiciled, without regard to conflict-of-law provisions.
+
+END OF ASCENDERE COMMUNITY LICENSE 1.0
