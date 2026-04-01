@@ -2,8 +2,13 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
+    <GodotProjectDir Condition="'$(GodotProjectDir)' == ''">$(MSBuildProjectDirectory)</GodotProjectDir>
     <NoWarn>$(NoWarn);CS0649;CS0169</NoWarn>
   </PropertyGroup>
+
+  <ItemGroup>
+    <CompilerVisibleProperty Include="GodotProjectDir" />
+  </ItemGroup>
 
   <!-- Exclude CLI tool from Godot compilation — it has its own .csproj -->
   <ItemGroup>

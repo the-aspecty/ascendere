@@ -2,6 +2,7 @@
 .godot/
 /android/
 .planning
+.project
 tools/cli/Ascendere.Cli/obj
 tools/cli/Ascendere.Cli/bin
 tools/cli/Ascendere.Cli/bin/Debug/net8.0/
